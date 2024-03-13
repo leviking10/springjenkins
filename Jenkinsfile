@@ -2,7 +2,7 @@ pipeline {
     agent any // Indique que la pipeline peut s'exécuter sur n'importe quel agent disponible dans Jenkins
 
     tools {
-        maven 'M3' // Utilise la version de Maven nommée 'M3' configurée dans Jenkins
+        maven 'Maven'
         jdk '8'
     }
 
