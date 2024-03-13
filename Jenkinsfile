@@ -48,6 +48,8 @@ pipeline {
                 }
             }
         }
+    }
+
     post {
         always {
             cleanWs() // Nettoyer l'espace de travail après la construction
