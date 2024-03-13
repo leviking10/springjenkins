@@ -2,9 +2,8 @@ pipeline {
     agent any // Indique que la pipeline peut s'exécuter sur n'importe quel agent disponible dans Jenkins
 
     tools {
-        maven 'Maven'
-        jdk '8'
-    }
+            maven 'Maven'
+            jdk 'JDK 8'           }
 
     stages {
         stage('Build') { // Étape de construction du projet
